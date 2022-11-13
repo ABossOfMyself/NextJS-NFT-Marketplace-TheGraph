@@ -210,7 +210,7 @@ export default function NFTBox({ NFTContractAddress, price, marketplaceAddress, 
 
                                     <div className = "italic text-sm">Owned by {formattedSellerAddress}</div>
                                     
-                                    <img className = "object-contain" src = {imageURI} height = "200" width = "200"></img>
+                                    <img className = "object-contain h-48" src = {imageURI}></img>
 
                                     <div className = "font-bold">{Moralis.Units.FromWei(price)} ETH</div>
 
