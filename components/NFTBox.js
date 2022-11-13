@@ -211,7 +211,7 @@ export default function NFTBox({ NFTContractAddress, price, marketplaceAddress, 
 
                                     <div className = "italic text-sm">Owned by {formattedSellerAddress}</div>
                                     
-                                    <Image loader = "custom" src = {imageURI} height = "200" width = "200"></Image>
+                                    <Image loader = {() => imageURI} src = {imageURI} height = "200" width = "200"></Image>
 
                                     <div className = "font-bold">{Moralis.Units.FromWei(price)} ETH</div>
 
