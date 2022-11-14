@@ -2,8 +2,8 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        loader: "imgix",
-        path: "/"
+        domains: ["ipfs.io"],
+        unoptimized: true
     }
 }
 
