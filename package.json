@@ -1,14 +1,12 @@
 {
-  "name": "nextjs-nft-marketplace-moralis",
+  "name": "nextjs-nft-marketplace-thegraph",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "moralis:sync": "moralis-admin-cli connect-local-devchain --chain hardhat --moralisSubdomain l9dtybulq156.usemoralis.com --frpcPath ./frp/frpc.exe",
-    "moralis:cloud": "moralis-admin-cli watch-cloud-folder --moralisSubdomain l9dtybulq156.usemoralis.com --autoSave 1 --moralisCloudfolder ./cloudFunctions"
+    "lint": "next lint"
   },
   "dependencies": {
     "@apollo/client": "^3.7.0",
